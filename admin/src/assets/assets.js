@@ -16,4 +16,5 @@ export const assets = {
   all_order_items,
 };
 
-export const url = "https://foodmania-1gtj.onrender.com";
+
+export const url = import.meta.env.VITE_API_URL;
